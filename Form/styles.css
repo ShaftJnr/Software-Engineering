@@ -42,6 +42,7 @@ body{
     height: 1vh;
     border-color: none;
     border: none;
+    margin-bottom: 10%;
 }
 .container{
     background-color: #243045;
