@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Santeo Hostel | Form</title>
+
+    <link rel="stylesheet" href="./styles.css">
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="./site.webmanifest">
+    
+    <link rel="shortcut icon" href="../favicon_io/favicon.ico" type="image/x-icon">
+
+    <script src="./script.js"></script>
+</head>
+<body>
+	<div class="container">
+        <p id="h1">Santeo Hostel Form</p></p><hr class="line">
+	<form action="submit.php" method="POST">
+		<fieldset>
+        <label for="student_name">Student Name:</label>
+		<input type="text" id="student_name" name="student_name" required><br><br>
+
+        <label for="email">Student Email:</label>
+		<input type="email" id="email" name="email" required><br><br>
+
+		<label for="index_number">Index Number:</label>
+		<input type="number" id="roll_number" name="roll_number" required><br>
+        </fieldset><br>
+        <fieldset>
+        <label for="block">Block:</label>
+		<select id="block" name="block" required>
+			<option value="A">A</option>
+			<option value="B">B</option>
+			<option value="C">C</option>
+			<option value="D">D</option>
+		</select><br><br>
+
+		<label for="room_number">Room Number:</label>
+		<input type="number" id="room_number" name="room_number" required><br><br>
+
+		<label for="floor_number">Floor Number:</label>
+		<input type="number" id="floor_number" name="floor_number" required><br>
+        </fieldset><br>
+
+
+		<fieldset>
+            <label for="check_in_date">Check-In Date:</label>
+		<input type="date" id="check_in_date" name="check_in_date" required><br><br>
+
+		<label for="check_out_date">Check-Out Date:</label>
+		<input type="date" id="check_out_date" name="check_out_date"><br><br>
+
+		<label for="payment_method">Payment Method:</label>
+		<select id="payment_method" name="payment_method">
+			<option value="cash">Cash</option>
+			<option value="credit_card">Credit Card</option>
+			<option value="debit_card">Debit Card</option>
+			<option value="online_transfer">Online Transfer</option>
+            <option value="Momo">Momo</option>
+		</select><br>
+        </fieldset><br>
+
+		<button id="submit" onclick="showAlert()">Submit</button>
+
+	</form>
+   </div>
+
+   <footer>
+    &copy;2023 Santeo Hostel
+</footer>
+</body>
+</html>

@@ -1,0 +1,116 @@
+body{
+    background-image: url(../Images/hostel\ room\ brown.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(20px);
+}
+
+*{
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: FontFont;
+    src: url(../Josefin_Sans/static/JosefinSans-Bold.ttf);
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: FontFontFont;
+    src: url(../Josefin_Sans/static/JosefinSans-Light.ttf);
+}
+
+#h1{
+    color: #ffff;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "FontFont", sans-serif ;
+    font-size: 35px;
+   ;
+    letter-spacing: 2px;
+    word-spacing: 1px;
+}
+
+.line{
+    max-width: 100%;
+    width: 15%;
+    border-radius: 10px;
+    background-color: #ec9006;   
+    height: 1vh;
+    border-color: none;
+    border: none;
+}
+.container{
+    background-color: #243045;
+    padding: 20px;
+    max-width: 100%;
+    width: 40%;
+    margin: auto;
+    border-radius: 0 20px 0 20px;
+    text-align: center;
+    opacity: 0.9;
+    margin-top: 3%;
+}
+
+input{
+    background-color: #2c3c55;
+    border: none;
+    border-radius: 5px;
+    color: #ffff;
+    font-family: "FontFontFont","sans-serif";
+    font-size: 20px;
+}
+
+#payment_method{
+    background-color: #2c3c55;
+    color: #ffff;
+}
+
+fieldset{
+   border-color: #ec9006;
+   border-radius: 10px;
+}
+
+#block{
+    background-color: #2c3c55;
+    color: #ffff;
+}
+
+label{
+    color: #ffff;
+}
+
+#room_number{
+    width: 7%;
+}
+
+#floor_number{
+    width: 7%;
+}
+
+#submit{
+    color: black;
+    background-color: #ec9006;
+    font-size: 20px;
+    max-width: 100%;
+    width: 60%;
+    padding: 10px;
+    border-radius:5px 10px 5px 10px;
+    border: none;
+    margin-top: 20px;
+    font-family: "FontFontFont","sans-serif";
+    font-weight: 600;
+}
+
+#submit:hover{
+    background-color:  #f1b04c;
+}
+
+footer{
+    color: #ffff;
+    text-align: center;
+    margin-top: 2%;
+}
