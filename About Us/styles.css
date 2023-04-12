@@ -1,0 +1,12 @@
+*{
+    box-sizing: border-box;
+}
+
+:root{
+    --primary-color: #243045;
+    --secondary-color: #ec9006;
+    --hover-orange: #f1b04c;
+    --input-color: #2c3c55;
+}
+
+
