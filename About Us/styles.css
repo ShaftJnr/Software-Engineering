@@ -69,3 +69,8 @@ body{
     clear: both;
     content: "";
 }
+
+fieldset{
+    border-color: #ec9006;
+    border-radius: 5px;
+}
