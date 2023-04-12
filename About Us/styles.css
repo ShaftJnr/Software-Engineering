@@ -2,6 +2,20 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: FontFont;
+    src: url(../Josefin_Sans/static/JosefinSans-Bold.ttf);
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: FontFontFont;
+    src: url(../Josefin_Sans/static/JosefinSans-Light.ttf);
+    font-weight: 500;
+    font-style: normal;
+}
+
 :root{
     --primary-color: #243045;
     --secondary-color: #ec9006;
@@ -9,4 +23,31 @@
     --input-color: #2c3c55;
 }
 
+header{
+    padding: 30px;
+    background-color: var(--primary-color);
+    border-bottom: 7px solid var(--secondary-color);
+    font-family: "FontFont";
+}
+
+.AU-header{
+    color: #ffff;
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+body{
+    margin: 0;
+}
+
+.content{
+    background-color:#243045;
+    color:#ffff;
+    padding: 5px;
+    border-radius: 10px;
+    margin-top: 10px;
+    max-width: 100%;
+    width: 40%;
+}
 
