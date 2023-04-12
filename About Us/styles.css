@@ -40,7 +40,7 @@ header{
 body{
     margin: 0;
     background-image: url(../Images/hostel-2.jpg);
-    backdrop-filter: blur(2px);
+    backdrop-filter: blur(7px);
     -webkit-backdrop-filter: blur(20px);
 }
 
@@ -99,3 +99,11 @@ fieldset{
 .BtnForm:hover{
     background-color: #f1b04c;
 }
+
+.img-one{
+    width: 10px;
+    height: 5px;
+    z-index: -1;
+    resize: both;
+}
+
