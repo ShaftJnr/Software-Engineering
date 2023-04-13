@@ -101,9 +101,7 @@ fieldset{
 }
 
 .img-one{
-    width: 10px;
-    height: 5px;
-    z-index: -1;
-    resize: both;
+    width: 100px;
+    height: 100px;
+    max-width: 100%;
 }
-
