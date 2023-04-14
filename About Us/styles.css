@@ -44,6 +44,7 @@ body{
     -webkit-backdrop-filter: blur(20px);
 }
 
+
 .content{
     background-color:#243045;
     color:#ffff;
@@ -100,8 +101,15 @@ fieldset{
     background-color: #f1b04c;
 }
 
-.img-one{
-    width: 100px;
-    height: 100px;
-    max-width: 100%;
+.img1,
+.img2,
+.img3{
+  max-width: 50%;
+  max-width: 50%;
+}
+
+.images{
+    display: flex;
+    flex-direction: column;
+
 }
