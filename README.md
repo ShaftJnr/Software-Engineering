@@ -7,4 +7,13 @@
 
  First we have the "Login Page"
  Next the "About Us" Page
- and depending of the choice of the user the "Form Page" or "The Price List". 
+ and depending of the choice of the user the "Form Page" or "The Log-out/ log-in page". 
+
+ Sources of favicon and social media icons
+
+ www.favicon.io
+ www.flaticon.com
+
+Icons made by <a href="https://www.flaticon.com/authors/riajulislam" title="riajulislam"> riajulislam </a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com'</a></div>-->
+
+

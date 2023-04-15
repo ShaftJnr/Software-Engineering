@@ -1,6 +1,6 @@
 This favicon was generated using the following font:
 
-- Font Title: Lemon
-- Font Author: Copyright 2011 The Lemon Project Authors (https://github.com/etunni/lemon) with Reserved Font Name "Lemon"
-- Font Source: http://fonts.gstatic.com/s/lemon/v15/HI_EiYEVKqRMq0jBSZXAQ4-d.ttf
+- Font Title: Jura
+- Font Author: Copyright 2019 The Jura Project Authors (https://github.com/ossobuffo/jura)
+- Font Source: http://fonts.gstatic.com/s/jura/v28/z7NOdRfiaC4Vd8hhoPzfb5vBTP1d7auhTfmrH_rt.ttf
 - Font License: SIL Open Font License, 1.1 (http://scripts.sil.org/OFL))
