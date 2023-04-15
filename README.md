@@ -15,6 +15,6 @@ Sources of favicon and social media icons
 www.favicon.io ,
 www.flaticon.com
 
-Icons made by <a href="https://www.flaticon.com/authors/riajulislam" title="riajulislam"> riajulislam </a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com'</a></div>-->
+Icons made by <a href="https://www.flaticon.com/authors/riajulislam" title="riajulislam"> riajulislam </a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com'</a></div>
 
 ![Alt text](Screenshots/Login%20Page.png)
