@@ -129,8 +129,10 @@ img {
 }
 
 body {
-  background-color: antiquewhite;
-  font-family: sans-serif;
+  background-image: url(../Images/hostel-2.jpg);
+  backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(20px);
+
 }
 
 header {
@@ -157,7 +159,6 @@ img {
 
 .brick-img {
   width: 100%;
-  
 }
 
 .stat-img-wrapper {
@@ -181,11 +182,10 @@ img {
 
 .images {
   width: 50%;
-  box-shadow:2px 5px 10px 2px  black;
+  box-shadow: 2px 5px 10px 2px black;
   border-radius: 10px;
   margin: 10px;
 }
-
 
 .buttons {
   text-align: center;
@@ -209,11 +209,11 @@ img {
   font-size: 15px;
 }
 
-.btn:hover{
+.btn:hover {
   background-color: #f1b04c;
 }
 
-.socials{
+.socials {
   display: flex;
   flex-direction: row;
   background-color: var(--primary-color);
@@ -221,4 +221,12 @@ img {
   border-radius: 10px;
   width: 15%;
   max-width: 100%;
+}
+
+.footer {
+  text-align: center;
+  margin: 40px 0 0 0;
+  font-family: "FontFont", sans-serif;
+  backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(20px);
 }
